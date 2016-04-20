@@ -13,6 +13,7 @@
 		66DC06C11CC7366800F35389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DC06BF1CC7366800F35389 /* Main.storyboard */; };
 		66DC06C31CC7366800F35389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DC06C21CC7366800F35389 /* Assets.xcassets */; };
 		66DC06C61CC7366800F35389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DC06C41CC7366800F35389 /* LaunchScreen.storyboard */; };
+		66DC06CF1CC7397300F35389 /* FirsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC06CE1CC7397300F35389 /* FirsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		66DC06C21CC7366800F35389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66DC06C51CC7366800F35389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66DC06C71CC7366800F35389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DC06CD1CC7397300F35389 /* FirsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirsViewController.h; sourceTree = "<group>"; };
+		66DC06CE1CC7397300F35389 /* FirsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				66DC06BA1CC7366800F35389 /* AppDelegate.m */,
 				66DC06BC1CC7366800F35389 /* ViewController.h */,
 				66DC06BD1CC7366800F35389 /* ViewController.m */,
+				66DC06CD1CC7397300F35389 /* FirsViewController.h */,
+				66DC06CE1CC7397300F35389 /* FirsViewController.m */,
 				66DC06BF1CC7366800F35389 /* Main.storyboard */,
 				66DC06C21CC7366800F35389 /* Assets.xcassets */,
 				66DC06C41CC7366800F35389 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				66DC06BE1CC7366800F35389 /* ViewController.m in Sources */,
 				66DC06BB1CC7366800F35389 /* AppDelegate.m in Sources */,
+				66DC06CF1CC7397300F35389 /* FirsViewController.m in Sources */,
 				66DC06B81CC7366800F35389 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
